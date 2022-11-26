@@ -24,9 +24,16 @@ Below are shown pictures of how the information looked before the extraction and
 
 ![image](https://user-images.githubusercontent.com/113261292/204095125-0bfb38cb-7f2d-4221-bb7b-9981b3a7caa7.png)
 
-3. 
+3. Moreover, in the third part of the analysis, we created a relationship diagram that shows the connection between the tables we created during the project, specifying the primary and foreign keys of all of them, and saving it as a CSV file. After that, we imported that CSV file into pgAdmin so we can see reflected how the relationship diagram is reflected as a table. 
 
-
-
+![crowdfunding_db_relationships](https://user-images.githubusercontent.com/113261292/204103750-123c0e91-e9b4-49ed-b6aa-c41ab1f77cdd.PNG)
+![image](https://user-images.githubusercontent.com/113261292/204103772-a48c19e5-9281-4ff5-98e8-d9aa39f8eb19.png)
 
 ## Summary
+
+To finish this analysis, we not only wrote a SQL query that retrieves the number of backer_counts in descending order for each “cf_id” for all the "live" campaigns, which you can find inside this repository as crowdfunding_SQL_Analysis.sql, but also created two new tables that represent the remaining goal amount for each live campaign, and the remaining amount of the campaign goal, as shown below. 
+
+![image](https://user-images.githubusercontent.com/113261292/204104024-48289366-f02b-4057-9f98-c705e015e0e8.png)
+![image](https://user-images.githubusercontent.com/113261292/204104064-b3687543-4f18-4f9d-a8fc-3b85267179ab.png)
+
+
