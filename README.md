@@ -13,7 +13,7 @@ Our tasks for this analysis are:
 
 ## Results
 
-For the first part of this analysis, we extracted the raw data from the previous Excel file using the regular expression method (also known as Regex) so we can create a database with all the information needed such as the backer_id, cf_id, name, and email from the workers.
+1. For the first part of this analysis, we extracted the raw data from the previous Excel file using the regular expression method (also known as Regex) so we can create a database with all the information needed such as the backer_id, cf_id, name, and email from the workers.
 ![image](https://user-images.githubusercontent.com/113261292/204094682-17a110e6-6fee-48ea-9bd0-ab4cd5bbcb1d.png)
 ![image](https://user-images.githubusercontent.com/113261292/204094719-b66000d0-534f-46ac-9fbb-faf98feb601a.png)
 
